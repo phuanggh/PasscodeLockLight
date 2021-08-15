@@ -50,7 +50,7 @@
 		7A5C73D726C7BF250071D2B0 = {
 			isa = PBXGroup;
 			children = (
-				7A5C73E326C7BF250071D2B0 /* PasscodeLockLight */,
+				7A5C73E326C7BF250071D2B0 /* Source */,
 				7A5C73E226C7BF250071D2B0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +63,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7A5C73E326C7BF250071D2B0 /* PasscodeLockLight */ = {
+		7A5C73E326C7BF250071D2B0 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				7A5C740126C7C02C0071D2B0 /* PasscodeLock.strings */,
@@ -75,7 +75,7 @@
 				7A5C73E426C7BF250071D2B0 /* PasscodeLockLight.h */,
 				7A5C73E526C7BF250071D2B0 /* Info.plist */,
 			);
-			path = PasscodeLockLight;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		7A5C73F226C7BF8D0071D2B0 /* Protocols */ = {
