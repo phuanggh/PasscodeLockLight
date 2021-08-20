@@ -5,9 +5,12 @@ PasscodeLockLight is a lightweight version of [SwiftPasscodeLock](https://github
 It removes the local persistent password repository and password validation of SwiftPasscodeLock, enabling developers to handle user input and returned results easily.
 
 ## Features
-iOS passcode lock view
-Animations on wrong password
+iOS passcode lock view. Animates on wrong password.
+![demo image 1](DemoImages/passcode1.gif)
+![demo image 2](DemoImages/passcode2.gif)
+
 Customisable passcode length, display title, description and image
+![demo image 3](DemoImages/passcode3.gif)
 
 ## CocoaPods Install
 
@@ -27,7 +30,7 @@ Create a class that conform to protocol `PasscodeLockStateType`
 Example:
 ```swift
 struct  SIMLockState: PasscodeLockStateType {
-    var  title: String
+    var title: String
     var description: String
     var passcodeLength: Int
     var cancelButtonTitle: String = "Cancel"
@@ -35,7 +38,7 @@ struct  SIMLockState: PasscodeLockStateType {
     var isCancellableAction: Bool = true
     var isTouchIDAllowed: Bool = false
     var shouldRequestTouchIDImmediately: Bool = false
-    var  image: UIImage? = nil
+    var image: UIImage? = nil
 }
 ```
 And inject it’s object to a `PasscodeLockViewController` instance
