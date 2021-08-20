@@ -6,10 +6,13 @@ It removes the local persistent password repository and password validation of S
 
 ## Features
 iOS passcode lock view. Animates on wrong password.
+
 ![demo image 1](DemoImages/passcode1.gif)
 ![demo image 2](DemoImages/passcode2.gif)
 
+
 Customisable passcode length, display title, description and image
+
 ![demo image 3](DemoImages/passcode3.gif)
 
 ## CocoaPods Install
